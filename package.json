@@ -1,0 +1,28 @@
+{
+  "name": "cognito-helper-custom-df-cli",
+  "version": "1.0.2",
+  "description": "add/update attributes of a cognito user",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesus Castro",
+  "license": "ISC",
+  "bin": {
+    "providencios": "bin/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "inquirer": "^9.1.2"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZusMexSide-DF/cognito-helper.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ZusMexSide-DF/cognito-helper/issues"
+  },
+  "homepage": "https://github.com/ZusMexSide-DF/cognito-helper#readme"
+}
